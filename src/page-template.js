@@ -10,8 +10,8 @@ const generatePage = (userName, githubName) => `
 </head>
 
 <body>
-  <h1>${name}</h1>
-  <h2><a href="https://github.com/${github}">Github</a></h2>
+  <h1>${userName}</h1>
+  <h2><a href="https://github.com/${githubName}">Github</a></h2>
 </body>
 </html>
 `;
